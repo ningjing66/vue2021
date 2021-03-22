@@ -1,90 +1,33 @@
-mkdir vue2021
-cd vue28
-cd vue2*
-git init .
-dir 
-git clone https://github.com/ningjing66/vue2021.git
-git remote add main  https://github.com/ningjing66/vue2021.git
-git remote add main https://github.com/ningjing66/vue2021.git
-git remote add my https://github.com/ningjing66/vue2021.git
-git remote -v
-git push my main
-git pul my main
-git pull my main
-git push my main
-git  config --global --list
-git  config --global username "ningjing66"
-git  config --global user.name "ningjing66"
-git  config --global --list
-doskey
-doskey /history
-doskey /history >>his11.txt
 
+ÓÃ·¨: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
 
-
-
-
-# vue2021
-
-Quick setup â€” if youâ€™ve done this kind of thing before
-or	
-https://github.com/ningjing66/ningjinggood.git
-Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
-
-â€¦or create a new repository on the command line
-echo "# ningjinggood" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ningjing66/ningjinggood.git
-git push -u origin main
-â€¦or push an existing repository from the command line
-git remote add origin https://github.com/ningjing66/ningjinggood.git
-git branch -M main
-git push -u origin main
-â€¦or import code from another repository
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
-
-
-#end
-
-###222
-
-mkdir vue2021
-cd vue28
-cd vue2*
-git init .
-dir
-git checkout -b my
-git checkout -b dev
-git clone https://github.com/ningjing66/vue2021.git
-git remote add main  https://github.com/ningjing66/vue2021.git
-git remote add main https://github.com/ningjing66/vue2021.git
-git remote add my https://github.com/ningjing66/vue2021.git
-git remote -v
-git push my main
-
-git config credential.helper store
-git config credential.helper store
-git pull my main
-git push my main
-git  config --global --list
-git  config --global user.name "ningjing66"
-git  config --global --list
-git checkout -b my
-git checkout -b dev
-doskey
-doskey /history
-git status
-git add .
-git push my main
-git branch
-git push my master
-doskey /history
-
-###333
-
-
-
+Ñ¡Ïî:
+    -t             Ping Ö¸¶¨µÄÖ÷»ú£¬Ö±µ½Í£Ö¹¡£
+                   ÈôÒª²é¿´Í³¼ÆĞÅÏ¢²¢¼ÌĞø²Ù×÷£¬Çë¼üÈë Ctrl+Break£»
+                   ÈôÒªÍ£Ö¹£¬Çë¼üÈë Ctrl+C¡£
+    -a             ½«µØÖ·½âÎöÎªÖ÷»úÃû¡£
+    -n count       Òª·¢ËÍµÄ»ØÏÔÇëÇóÊı¡£
+    -l size        ·¢ËÍ»º³åÇø´óĞ¡¡£
+    -f             ÔÚÊı¾İ°üÖĞÉèÖÃ¡°²»·Ö¶Î¡±±ê¼Ç(½öÊÊÓÃÓÚ IPv4)¡£
+    -i TTL         Éú´æÊ±¼ä¡£
+    -v TOS         ·şÎñÀàĞÍ(½öÊÊÓÃÓÚ IPv4¡£¸ÃÉèÖÃÒÑ±»ÆúÓÃ£¬
+                   ¶Ô IP ±êÍ·ÖĞµÄ·şÎñÀàĞÍ×Ö¶ÎÃ»ÓĞÈÎºÎ
+                   Ó°Ïì)¡£
+    -r count       ¼ÇÂ¼¼ÆÊıÔ¾µãµÄÂ·ÓÉ(½öÊÊÓÃÓÚ IPv4)¡£
+    -s count       ¼ÆÊıÔ¾µãµÄÊ±¼ä´Á(½öÊÊÓÃÓÚ IPv4)¡£
+    -j host-list   ÓëÖ÷»úÁĞ±íÒ»ÆğÊ¹ÓÃµÄËÉÉ¢Ô´Â·ÓÉ(½öÊÊÓÃÓÚ IPv4)¡£
+    -k host-list    ÓëÖ÷»úÁĞ±íÒ»ÆğÊ¹ÓÃµÄÑÏ¸ñÔ´Â·ÓÉ(½öÊÊÓÃÓÚ IPv4)¡£
+    -w timeout     µÈ´ıÃ¿´Î»Ø¸´µÄ³¬Ê±Ê±¼ä(ºÁÃë)¡£
+    -R             Í¬ÑùÊ¹ÓÃÂ·ÓÉ±êÍ·²âÊÔ·´ÏòÂ·ÓÉ(½öÊÊÓÃÓÚ IPv6)¡£
+                   ¸ù¾İ RFC 5095£¬ÒÑÆúÓÃ´ËÂ·ÓÉ±êÍ·¡£
+                   Èç¹ûÊ¹ÓÃ´Ë±êÍ·£¬Ä³Ğ©ÏµÍ³¿ÉÄÜ¶ªÆú
+                   »ØÏÔÇëÇó¡£
+    -S srcaddr     ÒªÊ¹ÓÃµÄÔ´µØÖ·¡£
+    -c compartment Â·ÓÉ¸ôÀë²Õ±êÊ¶·û¡£
+    -p             Ping Hyper-V ÍøÂçĞéÄâ»¯Ìá¹©³ÌĞòµØÖ·¡£
+    -4             Ç¿ÖÆÊ¹ÓÃ IPv4¡£
+    -6             Ç¿ÖÆÊ¹ÓÃ IPv6¡£
 

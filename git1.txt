@@ -1,0 +1,12 @@
+On branch my
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   git.md
+	modified:   gitpush.txt
+	modified:   his11.txt
+	modified:   sip.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git1.txt
+
