@@ -1,15 +1,4 @@
-@echo off
-color a
-@start
-exit
 
-
-@rem echo on @cmd  @python aa1.py  @python aa01.py
-@python [starttestpython.py
-@rem echo on @cmd  @python aa1.py  @python aa11.py
-
-@rem powershell
-@start
 
 
 
@@ -23,7 +12,7 @@ git branch
 
 
 git add .
-git commit -m "aaaaaaa3"%time%
+git commit -m "aaaaaaa3"%date%
 git push dev main
 git push --force dev main
 
