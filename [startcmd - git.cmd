@@ -5,12 +5,15 @@
 git config --global user.name "ningjing66"
 git config --global user.email  "syw99@163.com"
 
-git checkout -b main
+
 git status
 git remote -v
 git branch
+git config --global --list
+git config --global --list
 
 
+git checkout -b main
 git add .
 git commit -m "aaaaaaa3"%date%
 git push dev main
