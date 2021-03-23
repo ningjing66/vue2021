@@ -31,6 +31,11 @@ exit
 
 exit
 
+
+C:\Users\.ssh
+
+
+
 d:
 cd D:\tencentnodejs\git2020\bin
 
