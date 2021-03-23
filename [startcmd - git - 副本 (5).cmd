@@ -1,5 +1,12 @@
 
 
+
+
+copy "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsavue2021" "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsa"  /Y
+copy "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsavue2021.pub" "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsa.pub"  /Y
+copy "C:\Users\Administrator.Windwos 10YKMNH\.ssh\known_hostsvue2021" "C:\Users\Administrator.Windwos 10YKMNH\.ssh\known_hosts"  /Y
+
+
 git config --global user.name "ningjing66"
 git config --global user.email "syw99@163.com"
 
@@ -30,6 +37,11 @@ exit
 exit
 
 exit
+
+
+C:\Users\.ssh
+
+
 
 d:
 cd D:\tencentnodejs\git2020\bin
