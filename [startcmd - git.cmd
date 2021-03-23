@@ -3,6 +3,8 @@
 
 
 copy "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsavue2021" "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsa"  /Y
+copy "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsavue2021.pub" "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsa.pub"  /Y
+copy "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsavue2021" "C:\Users\Administrator.Windwos 10YKMNH\.ssh\id_rsa"  /Y
 
 
 git config --global user.name "ningjing66"
